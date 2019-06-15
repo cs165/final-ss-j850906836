@@ -9,12 +9,12 @@ class DemoVideo{
     app.menu.show();
   }
   show() {
-    document.body.style.backgroundImage = "url('../public/images/coffee_2.jpg')";
+    document.body.style.backgroundImage = "url('https://imgur.com/dH604Ec')";
     this.containerElement.classList.remove('inactive');
   }
 
   hide() {
     this.containerElement.classList.add('inactive');
-    document.body.style.backgroundImage = "url('../public/images/coffee_3.jpg')";
+    document.body.style.backgroundImage = "url('https://imgur.com/PzjvhS0')";
   }
 }
