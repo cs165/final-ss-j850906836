@@ -18,13 +18,13 @@ class MenuScreen {
         app.menu.hide();
         app.introduce.show();
       }
-      else if (i == 1) {
-        app.menu.hide();
-        app.quiz.show();
-      }
       else if(i == 2){
         app.menu.hide();
         app.demovideo.show();
+      }
+      else if(i == 3){
+        app.menu.hide();
+        app.regorlog.show();
       }
       else {
 			app.flashcards.cardsGenerator(i);

@@ -1,23 +1,16 @@
 const FLASHCARD_DECKS = [{
   title: '專題介紹',
-  words: {
-    'color': 'font color',
-    'font-style': 'controls italics',
-    'font-weight': 'controls boldness',
-    'text-decoration': 'controls underline',
-    'font-family': 'font face'
-  }
 }, {
   title: '咖啡小測驗',
   words: {
-    '여자': 'woman',
-    '남자': 'man',
-    '사람': 'person',
-    '나무': 'tree',
-    '호수': 'lake',
-    '구름': 'cloud',
-    '땅': 'ground'
+    '單向排氣閥': '是聞香孔',
+    '咖啡豆要不要放冰箱?': '要',
+    '咖啡豆可以放多久？': '12到18個月',
+    '煮一杯咖啡要用多少量的豆子?': '15g',
+    '研磨粗細': '影響萃取'
   }
 }, {
   title: '實測影片',
+}, {
+  title:'Register or Login'
 }];

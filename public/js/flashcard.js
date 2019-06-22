@@ -33,19 +33,6 @@ class Flashcard {
     this.flashcardElement.addEventListener('pointerup', this._dragEnd);
   }
 
-  // Creates the DOM object representing a flashcard with the given
-  // |frontText| and |backText| strings to display on the front and
-  // back of the card. Returns a reference to root of this DOM
-  // snippet. Does not attach this to the page.
-  //
-  // More specifically, this creates the following HTML snippet in JS
-  // as a DOM object:
-  // <div class="flashcard-box show-word">
-  //   <div class="flashcard word">frontText</div>
-  //   <div class="flashcard definition">backText</div>
-  // </div>
-  // and returns a reference to the root of that snippet, i.e. the
-  // <div class="flashcard-box">
   _createFlashcardDOM(frontText, backText) {
     const cardContainer = document.createElement('div');
     cardContainer.classList.add('flashcard-box');
@@ -134,7 +121,7 @@ class Flashcard {
   			yn = document.querySelector(".correct");
   	  } else if (event.clientX - this.origin[0] < -150) {
   	  	yn = document.querySelector(".incorrect");
-    
+
   	  	wrongCards.push([app.flashcards.show_value[0][cardTotal-1],app.flashcards.show_value[1][cardTotal-1]]);
   		}
       console.log(yn);

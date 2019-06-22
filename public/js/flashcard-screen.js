@@ -25,6 +25,7 @@ class FlashcardScreen {
     flashcardContainer.innerHTML ="";
     new Flashcard(flashcardContainer,this.show_value[0][cardTotal], this.show_value[1][cardTotal]);
     this.containerElement.classList.remove('inactive');
+    document.body.style.backgroundImage = "url('')";
     document.body.style.backgroundColor = '#d0e6df';
   }
 
